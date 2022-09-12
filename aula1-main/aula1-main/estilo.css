@@ -1,0 +1,41 @@
+:root{
+    --fundo: ;
+    --azul: ;
+    --laranja:
+
+}
+
+*{
+
+    background-color:blanchedalmond;color: black;
+    margin: 0; padding: 0;
+}
+header{
+    background-color: cornsilk;
+    height: 300px;
+    display: flex;
+    text-align: center;
+}
+header img{
+    height: 100%;
+}
+header ul{
+    background-color:cornsilk;
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header ul li{
+    display: flex;
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: cornsilk;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
